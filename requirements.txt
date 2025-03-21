@@ -15,6 +15,6 @@ plyfile
 pip==22.3.1
 
 # Local packages (assumes these are local directories or installed via editable mode)
--e submodules/diff-gaussian-rasterization
--e submodules/simple-knn
--e submodules/fused-ssim
+#-e submodules/diff-gaussian-rasterization
+#-e submodules/simple-knn
+#-e submodules/fused-ssim
