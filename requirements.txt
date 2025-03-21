@@ -13,6 +13,7 @@ opencv-python
 joblib
 plyfile
 pip==22.3.1
+ninja
 
 # Local packages (assumes these are local directories or installed via editable mode)
 #-e submodules/diff-gaussian-rasterization
