@@ -1,0 +1,20 @@
+# Python version
+#python==3.7.13
+
+# PyTorch and related packages
+# torch==1.12.1+cu116
+# torchvision==0.13.1+cu116
+# torchaudio==0.12.1
+# Note: Requires installation from PyTorch's specific wheel URL or index for CUDA compatibility
+
+# Other dependencies
+tqdm
+opencv-python
+joblib
+plyfile
+pip==22.3.1
+
+# Local packages (assumes these are local directories or installed via editable mode)
+-e submodules/diff-gaussian-rasterization
+-e submodules/simple-knn
+-e submodules/fused-ssim
