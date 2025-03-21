@@ -8,13 +8,17 @@ dependencies:
   - plyfile
   - python=3.7.13
   - pip=22.3.1
-  - pytorch=1.12.1
-  - torchaudio=0.12.1
-  - torchvision=0.13.1
   - tqdm
   - pip:
+    - torch==1.12.1+cu116
+    - torchvision==0.13.1+cu116
+    - torchaudio==0.12.1
+    - --extra-index-url=https://download.pytorch.org/whl/cu116
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
     - submodules/fused-ssim
     - opencv-python
     - joblib
+  
+
+
