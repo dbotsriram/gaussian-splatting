@@ -51,5 +51,5 @@ RUN conda create -n gaussian_splatting python=3.7.13 -y
 RUN conda run -n gaussian_splatting pip install ninja torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
 RUN conda run -n gaussian_splatting pip install -r requirements.txt
 RUN echo "source /opt/conda/bin/activate gaussian_splatting" >> ~/.bashrc
-COPY /parking /workspace/parking
+#COPY /parking /workspace/parking
 ENTRYPOINT ["/bin/bash"]
